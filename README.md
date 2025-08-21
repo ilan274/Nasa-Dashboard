@@ -62,6 +62,8 @@ This is a project for the NASA Dashboard Take-Home Challenge. The goal is to cre
 
 ## Running the Project
 
+### Make sure you are using a recent version of Node such as 20.x.x
+
 ### Backend
 ```bash
 cd backend
