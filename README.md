@@ -20,30 +20,45 @@ This is a project for the NASA Dashboard Take-Home Challenge. The goal is to cre
 
 **Bonus Points**
 - [x] Add linting and formatting tools (e.g., ESLint, Prettier).
-- [] Document your setup choices and reasoning.
+- [ ] Document your setup choices and reasoning.
 - [x] Include any developer experience improvements (e.g., scripts, environment setup).
   - [x] Environment setup using `.env` and `dotenv`:
   - `NASA_API_KEY`, `NASA_API_URL`, `PORT`
+  - Added MUI for the frontend
 
 ---
 
-### Task 2: Build the Feature ❌
+### Task 2: Build the Feature ✅
 
-- [ ] Implement a date picker to select a specific date
-- [ ] Display for each object:
-  - [ ] Name
-  - [ ] Size
-  - [ ] Closeness to Earth
-  - [ ] Relative Velocity
-- [ ] Allow sorting by:
-  - [ ] Size
-  - [ ] Closeness to Earth
-  - [ ] Relative Velocity
-- [ ] Bonus
-  - [ ] Add caching to improve performance.
+- [x] Implement a date picker to select a specific date
+- [x] Display for each object:
+  - [x] Name
+  - [x] Size
+  - [x] Closeness to Earth
+  - [x] Relative Velocity
+- [x] Allow sorting by:
+  - [x] Size
+  - [x] Closeness to Earth
+  - [x] Relative Velocity
+- [x] Provide a valid **OpenAPI 3 schema** for your API.
+- [x] Bonus
+  - [x] Add caching to improve performance.
   - [ ] Document your approach and any trade-offs.
 
 ---
+
+## What I would do if I had more time
+- Backend:
+  - Better TS typing
+  - Add Zod validation
+  - Add unit tests
+  - I used NodeCache for caching, but I would use Redis for a production environment
+- Frontend:
+  - Better TS typing
+  - Add Zod validation
+  - Better error handling
+  - Better UI
+  - Add unit tests
 
 ## Running the Project
 
